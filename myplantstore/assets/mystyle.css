@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.Background{
+    background-color:#6666e5;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.plants-store{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 0;
+}
+.c {
+    -webkit-text-decoration-line: line-through; /* Safari */
+    text-decoration-line: line-through; 
+ }
+.Lists{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.Home{
+    color: white;
+    text-decoration: none;
+}
+.active{
+    color: #50fb46;
+}
+.Bg-color{
+    background-color: black;
+    padding-top: 10px;
+}
+.Bg-color-2{
+    background-color:#6666e5;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 60px 60px;
+    gap: 40px;
+}
+.main-image{
+    width: 70%;
+    height: 80%;
+}
+.welcome{
+    color: #50fb46;
+    font-size: 50px;
+}
+.online {
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+}
+.Household{
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.info{
+    text-decoration: none;
+    color: black;
+}
+.button-1{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.button{
+    padding: 10px 15px;
+    font-size: 14px;
+    border-style: none;
+}
+.flex-property{
+    display: flex;
+    justify-content: center;
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+
+.border{
+    border: solid whitesmoke;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: -70px;
+}
+
+.border1{
+    border: solid whitesmoke;
+    background-color: white;
+    padding: 20px;
+    float: left;
+    top: -70px;
+}
+.plant-text{
+    font-size: 18px;
+}
+.plants-images{
+    width: 48px;
+    height: 48px;
+}
+.center {
+    display: block;
+    margin: auto;
+    width: 50%;
+   
+    margin:10px;
+   
+  }
+  .button1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+ 
+   .button2{
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}

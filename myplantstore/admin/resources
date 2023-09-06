@@ -1,0 +1,19 @@
+types
+Summer Plants
+Winter Plants
+Indoor Plants
+Outdoor Plants
+Pots
+fertilizers
+seeds
+Tools
+
+
+SELECT `id`, `customerid`, `message`, `createdat`, `likes`, `stars`, `productid` FROM `reviews` 
+
+SELECT `productid`, `title`, `category` FROM `products` 
+
+
+//products of high likes and stars
+
+SELECT p.`id`, p.`title`, p.`description`,p.photo, p.`purchasing_price`, p.`salling_old_price`, p.`selling_new_price`, SUM(r.`likes` * r.`stars`) AS product_likes_stars_product FROM `products` p JOIN `reviews` r ON p.`id` = r.`productid` GROUP BY p.`id`, p.`title`,p.photo, p.`description`, p.`purchasing_price`,p.`salling_old_price`,p.`selling_new_price` ORDER BY product_likes_stars_product DESC

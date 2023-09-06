@@ -1,0 +1,14 @@
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card
+
+category-Pots,Gardening tool,Fertilizers,Seeds,Summer Plants,Winter Plants,Indoor Plants,Outdoor Plants,Tools
+
+
+//products which are not avaiable in the cart
+SELECT p.*
+FROM plants_table p
+LEFT JOIN plants_cart pc ON p.plant_id = pc.plantid
+WHERE pc.plantid IS NULL;
+
+
+icons
+https://fontawesome.com/v4/icons/
